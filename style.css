@@ -144,8 +144,25 @@ a:hover {
 
 
 /* ===========MEDIA QUERIES=========== */  
-  @media (max-width: 992px) {
+@media (max-width: 992px) {
     .logo {
-      margin-bottom: 2.6rem;
+        margin-bottom: 2.6rem;
     }
-  }
+}
+  
+@media (max-width: 768px) {
+    .block {
+        flex-wrap: wrap;
+    }
+    .image {
+        display: none;
+        margin-right: 0rem;
+    }
+    .content {
+        border: 1px solid #dddddd;
+        border-radius: 6px;
+    }
+    body{
+        background-color: #48b81c23;
+    }
+}
