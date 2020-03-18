@@ -124,3 +124,20 @@ a:hover {
 .form-control.form-item:focus {
     border: 1px solid #48b81c;
 }
+
+/* button */
+.btn {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 1.1rem 2.3rem;
+    background: #48b81c;
+    border-radius: 4px;
+    outline: none !important;
+}
+.btn:hover {
+    color: #ffffff;
+}
+.btn:focus {
+    color: #ffffff;
+    box-shadow: none;
+}
