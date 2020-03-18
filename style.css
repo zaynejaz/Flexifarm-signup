@@ -166,3 +166,12 @@ a:hover {
         background-color: #48b81c23;
     }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 376px) {
+    .centercontainer {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        margin: 0 1rem;
+    }
+}
