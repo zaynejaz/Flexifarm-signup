@@ -141,3 +141,11 @@ a:hover {
     color: #ffffff;
     box-shadow: none;
 }
+
+
+/* ===========MEDIA QUERIES=========== */  
+  @media (max-width: 992px) {
+    .logo {
+      margin-bottom: 2.6rem;
+    }
+  }
