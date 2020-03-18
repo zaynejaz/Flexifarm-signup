@@ -108,3 +108,19 @@ a:hover {
 .account a {
     color: #444444;
 }
+
+/* ===========FORM=========== */
+.form-control::-webkit-input-placeholder {
+    font-size: .9rem;
+    color: #888888;
+}
+.form-control.form-item {
+    font-size: .9rem;
+    background: #fff;
+    padding: 1rem 1.3rem;
+    margin-bottom: 1.3rem;
+    border: 1px solid #dddddd;
+}
+.form-control.form-item:focus {
+    border: 1px solid #48b81c;
+}
